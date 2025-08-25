@@ -1,8 +1,14 @@
 def slice_simple():
     texto = "Awesome"
-    # Código a implementar, se debe utilizar la variable 'texto' para resolver el ejercicio.
-    # No se debe modificar la definición de la función, ni ingresar otro valor mediante input.
+    texto = texto.lower()
 
+    nombre = texto [0:3]
+    print(nombre)
 
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_simple_test.py` o `python tp3_slice_simple_test.py`
+    nombre = texto [2:5]
+    print(nombre)
+
+    nombre = texto [0:4] + texto [-3:]
+    print(nombre)
+
+slice_simple()

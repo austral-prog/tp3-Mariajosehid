@@ -1,5 +1,16 @@
 def slice_advanced():
-    # Código a implementar utilizando input.
+    texto = "Hello World!"
+    texto = texto.lower()
 
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+    nombre = texto [4] + texto [5] + texto [4] + texto [-3] + texto [-1]
+    print(nombre)
+
+    texto = "1234567890"
+    texto = texto.lower()
+
+    nombre = texto [4] + texto [6] + texto [8] + texto [9]
+    print(nombre)
+
+
+
+slice_advanced()
