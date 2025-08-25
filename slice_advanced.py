@@ -10,7 +10,3 @@ def slice_advanced():
 
     nombre = texto [4] + texto [6] + texto [8] + texto [9]
     print(nombre)
-
-
-
-slice_advanced()
